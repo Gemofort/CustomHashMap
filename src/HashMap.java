@@ -21,7 +21,7 @@ public class HashMap {
      * */
     public void put(int key, long value) throws ResizeHMExc {
         int index = hashCodeNew(key); //hashed key as index
-        boolean found = false; // it's boolean is for tracking if place forward is found
+        boolean found = false; // it's boolean for tracking if place forward is found
         HashEntry hashEntry = new HashEntry(key, value); // our element we need to put
         if (table[index] == null) {
             table[index] = hashEntry;
