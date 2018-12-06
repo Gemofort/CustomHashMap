@@ -108,7 +108,7 @@ public class Testing extends Assert {
         try{
             hashMap.put(120, 11L);
             hashMap.put(-240,  10L);
-            /*120 and -240 have same hashCode which is 128*/
+            /*120 and -240 have same hashCode which is 127*/
         } catch (ResizeHMExc exc){
             exc.printStackTrace();
         }

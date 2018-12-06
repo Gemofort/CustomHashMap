@@ -47,7 +47,7 @@ public class HashMap {
     }
 
     /**
-     * Method, which implements "Linear probing algorithm", adds element on it's position
+     * Method, which gets value by it's key
      *
      * @param key is a key of element which value you want to get
      * @return value of element you wanted
