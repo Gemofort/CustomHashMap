@@ -40,7 +40,7 @@ public class HashMap {
                     break;
                 }
             }
-            if (!found){//if there is no space we will have to resize an HashMap
+            if (!found){//if there is no space we will have to resize a HashMap
                 throw new ResizeHMExc();
             }
         }
