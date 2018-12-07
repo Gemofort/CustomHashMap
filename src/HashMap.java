@@ -57,7 +57,7 @@ public class HashMap {
         int index = hashCodeNew(key);
         for (int i = index; i < table.length; i++){
             if (table[i] != null){
-                if(table[i].getKey() == key){
+                if(table[i].getKey() == key) {
                     return table[i].getValue();
                 }
             }
@@ -128,10 +128,7 @@ class HashEntry {
      * @return true is keys are identical, else false if not
      * */
     public boolean equals(HashEntry hs){
-        if (this.key == hs.getKey()){
-            return true;
-        }
-        return false;
+        return this.key == hs.getKey();
     }
 
 }
