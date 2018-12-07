@@ -116,7 +116,7 @@ public class Testing extends Assert {
     }
 
     /**
-     * Test to see if we can get no existing element and NotFoundExc works
+     * Test to see if we can get non-existing element and NotFoundExc works
      * */
     @Test
     public void testGet(){
