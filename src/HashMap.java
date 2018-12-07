@@ -73,7 +73,7 @@ public class HashMap {
     }
 
     /**
-     * Method, which implements "Linear probing algorithm", adds element on it's position
+     * Method, which hashes an int number
      *
      * @param h is a number to be hashed
      * @return hashed number
